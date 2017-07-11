@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+
+  "name": "Twueism",
+  "description": "This extension changes all instances of the word TRUE to TWUE",
+  "version": "1.0",
+  "background": {
+      "scripts": ["twueism.js"]
+  },
+  "permissions": [
+    "webNavigation", "*://*/*"
+  ]
+}
