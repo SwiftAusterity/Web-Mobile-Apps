@@ -5,9 +5,15 @@
   "description": "This extension changes all instances of the word TRUE to TWUE",
   "version": "1.0",
   "background": {
-      "scripts": ["twueism.js"]
+      "scripts": ["listener.js"]
   },
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["twueism.js"]
+    }
+  ],
   "permissions": [
-    "webNavigation", "*://*/*"
+    "webNavigation", "tabs", "*://*/*"
   ]
 }
