@@ -8,6 +8,6 @@
       "scripts": ["kaypeed.js"]
   },
   "permissions": [
-    "webNavigation", "*://fetlife.com/*"
+    "webNavigation", "*://*/*"
   ]
 }
