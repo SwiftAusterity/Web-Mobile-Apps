@@ -3,7 +3,7 @@
 
   "name": "Twueism",
   "description": "This extension changes all instances of the word TRUE to TWUE",
-  "version": "1.0",
+  "version": "1.1",
   "background": {
       "scripts": ["listener.js"]
   },
